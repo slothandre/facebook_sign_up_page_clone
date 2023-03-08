@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - crie sua conta</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/images/facebook_icon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="assets/images/facebook.svg" alt="">
+    </header>
+    <main>
+        <section>
+            <h1>Criar uma nova conta</h1>
+            <p>É fácil e rápido</p>
+            <form action="" method="post">
+                <label for="name">
+                    <input type="text" name="name" id="name" placeholder="Nome" required>
+                </label>
+                <label for="last_name">
+                    <input type="text" name="last_name" id="last_name" placeholder="Sobrenome" required>
+                </label>
+                <label for="email">
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+                </label>
+                <label for="password">
+                    <input type="password" name="password" id="password" placeholder="Senha">
+                </label>
+                <label for="birthdate" id="label_birth">
+                    <p>Data de Nascimento:</p>
+                    <input type="date" name="birthdate" id="birthdate">
+                </label>
+                <p>Genero:</p>
+                <label for="male">
+                    <input type="radio" name="gender" id="male">
+                    Masculino
+                </label>
+                <label for="female">
+                    <input type="radio" name="gender" id="female">
+                    Feminino
+                </label>
+                <label for="other">
+                    <input type="radio" name="gender" id="other">
+                    Personalizado
+                </label><br>
+                <input type="submit" value="Criar Conta" id="submit">
+            </form>
+            <p><a href="">Já tem uma conta?</a></p>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #F0F2F5;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+header img {
+    width: 300px;
+}
+section {
+    background-color: #FFF;
+    width: 400px;
+    margin: auto;
+    padding: 30px 0;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #DDD;
+}
+form {
+    margin: 20px;
+}
+form p {
+    text-align: left;
+}
+input {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+}
+a {
+    text-decoration: none;
+}
+#email,
+#password, 
+#birthdate {
+    width: 100%;
+}
+#name,
+#last_name {
+    margin-left: 0;
+    width: 49%;
+}
+#submit {
+    margin-top: 10px;
+    padding: 7px 40px;
+    background-color: #42B72A;
+    color: #FFF;
+    transition: all 0.2s linear;
+}
+#submit:hover {
+    cursor: pointer;
+    background-color: #389326;
+}
+@media (max-width: 450px) {
+    section {
+        width: 100vw;
+    }
+}
